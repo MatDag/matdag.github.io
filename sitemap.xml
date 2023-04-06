@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml"> 
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://matdag.github.io/publication-type/8/</loc><lastmod>2023-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -17,6 +17,8 @@
     <loc>https://matdag.github.io/publication/saba/</loc><lastmod>2022-06-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://matdag.github.io/publication/benchopt/</loc><lastmod>2022-06-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://matdag.github.io/publication/saba_gretsi/</loc><lastmod>2022-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://matdag.github.io/categories/</loc><changefreq>weekly</changefreq></url>
   <url>
