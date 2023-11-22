@@ -65,10 +65,10 @@
   
     
   
-  <meta name="description" content="I am a PhD student at Inria in the Mind team working under the supervision of Pierre Ablin, Thomas Moreau and Samuel Vaiter. " />
+  <meta name="description" content="Nous proposons une borne inférieure sur le nombre d&#39;appels aux oracles nécessaire pour résoudre le problème de minimisation de risque empirique bi-niveaux. Nous montrons que SRBA, une adaptation bi-niveaux de SARAH, est quasi-optimale en terme de complexité, de la même manière que son homologue simple niveau." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://matdag.github.io/publication-type/3/" />
+  <link rel="alternate" hreflang="en-us" href="https://matdag.github.io/publication/srba_gretsi/" />
 
   
   
@@ -278,8 +278,6 @@
   
 
   
-    <link rel="alternate" href="/publication-type/3/index.xml" type="application/rss+xml" title="Mathieu Dagréou" />
-  
 
   
     <link rel="manifest" href="/manifest.webmanifest" />
@@ -288,7 +286,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://matdag.github.io/publication-type/3/" />
+  <link rel="canonical" href="https://matdag.github.io/publication/srba_gretsi/" />
 
   
   
@@ -314,33 +312,80 @@
     <meta property="twitter:creator" content="@Mat_Dag" />
   
   <meta property="og:site_name" content="Mathieu Dagréou" />
-  <meta property="og:url" content="https://matdag.github.io/publication-type/3/" />
-  <meta property="og:title" content="3 | Mathieu Dagréou" />
-  <meta property="og:description" content="I am a PhD student at Inria in the Mind team working under the supervision of Pierre Ablin, Thomas Moreau and Samuel Vaiter. " /><meta property="og:image" content="https://matdag.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
+  <meta property="og:url" content="https://matdag.github.io/publication/srba_gretsi/" />
+  <meta property="og:title" content="Borne inférieure de compléxité et algorithme quasi-optimal pour la minimisation de risque empirique bi-niveaux | Mathieu Dagréou" />
+  <meta property="og:description" content="Nous proposons une borne inférieure sur le nombre d&#39;appels aux oracles nécessaire pour résoudre le problème de minimisation de risque empirique bi-niveaux. Nous montrons que SRBA, une adaptation bi-niveaux de SARAH, est quasi-optimale en terme de complexité, de la même manière que son homologue simple niveau." /><meta property="og:image" content="https://matdag.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
     <meta property="twitter:image" content="https://matdag.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="og:updated_time" content="2023-01-01T00:00:00&#43;00:00" />
+      <meta
+        property="article:published_time"
+        content="2023-01-01T00:00:00&#43;00:00"
+      />
     
+    <meta property="article:modified_time" content="2023-01-01T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://matdag.github.io/publication/srba_gretsi/"
+  },
+  "headline": "Borne inférieure de compléxité et algorithme quasi-optimal pour la minimisation de risque empirique bi-niveaux",
+  
+  "datePublished": "2023-01-01T00:00:00Z",
+  "dateModified": "2023-01-01T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Mathieu Dagréou"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Mathieu Dagréou",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://matdag.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Nous proposons une borne inférieure sur le nombre d'appels aux oracles nécessaire pour résoudre le problème de minimisation de risque empirique bi-niveaux. Nous montrons que SRBA, une adaptation bi-niveaux de SARAH, est quasi-optimale en terme de complexité, de la même manière que son homologue simple niveau."
+}
+</script>
+
+  
+
+  
+
   
 
   
 
 
 
-  
-
-  
 
 
-
-
-
-  <title>3 | Mathieu Dagréou</title>
+  <title>Borne inférieure de compléxité et algorithme quasi-optimal pour la minimisation de risque empirique bi-niveaux | Mathieu Dagréou</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   "  >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="659a25f16b96ed36bc3d12c56620e9a8" >
 
   
   
@@ -651,6 +696,17 @@
 
 
 
+<div class="pub">
+
+  
+
+
+
+
+
+
+
+
 
 
 
@@ -659,196 +715,66 @@
 
   
   
+  
+<div class="article-container pt-3">
+  <h1>Borne inférieure de compléxité et algorithme quasi-optimal pour la minimisation de risque empirique bi-niveaux</h1>
+
+  
+
   
     
-  
-<div class="universal-wrapper pt-3">
-  <h1>3</h1>
-
-  
-
-  
-</div>
 
 
-
-<div class="universal-wrapper">
-  
+<div class="article-metadata">
 
   
   
+  
+  
+  <div>
     
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/srba/" >A Lower Bound and a Near-Optimal Algorithm for Bilevel Empirical Risk Minimization</a>
-    </div>
-
-    
-    <a href="/publication/srba/"  class="summary-link">
-      <div class="article-style">
-        We provide a lower bound for AID algorithm solving bilevel ERM problems. We show that SRBA, a bilevel adaptation of SARAH, is near optimal in term of sample complexity, similarly to its single level counterpart.
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
 
   <span >
       Mathieu Dagréou</span>, <span >
       Thomas Moreau</span>, <span >
       Samuel Vaiter</span>, <span >
       Pierre Ablin</span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/2302.08766.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/srba/cite.bib">
-  Cite
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2302.08766" target="_blank" rel="noopener">
-    arXiv</a>
-
-
-    </div>
-    
-
   </div>
-  <div class="ml-3">
+  
+  
+
+  
+  <span class="article-date">
     
     
-  </div>
+      
+    
+    January, 2023
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+
 </div>
 
+    
+
+
+
+
+<div class="btn-links mb-3">
   
-    
-
-
-
-
-
-
-
   
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/srba_gretsi/" >Borne inférieure de compléxité et algorithme quasi-optimal pour la minimisation de risque empirique bi-niveaux</a>
-    </div>
-
-    
-    <a href="/publication/srba_gretsi/"  class="summary-link">
-      <div class="article-style">
-        Nous proposons une borne inférieure sur le nombre d&rsquo;appels aux oracles nécessaire pour résoudre le problème de minimisation de risque empirique bi-niveaux. Nous montrons que SRBA, une adaptation bi-niveaux de SARAH, est quasi-optimale en terme de complexité, de la même manière que son homologue simple niveau.
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      Mathieu Dagréou</span>, <span >
-      Thomas Moreau</span>, <span >
-      Samuel Vaiter</span>, <span >
-      Pierre Ablin</span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
 
 
 
@@ -863,13 +789,13 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://gretsi.fr/data/colloque/pdf/2023_dagreou1220.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://gretsi.fr/data/colloque/pdf/2023_dagreou1220.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+<a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
         data-filename="/publication/srba_gretsi/cite.bib">
   Cite
 </a>
@@ -888,20 +814,215 @@
 
 
 
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
 </div>
 
+
   
+</div>
+
+
+
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">L’optimisation à deux niveaux est un thème animant de plus en plus les communautés d’apprentissage statistique et de traitement du signal. Dans de nombreuses applications en apprentissage, les fonctions internes et externes sont des moyennes empiriques. Avec une grande quantité de données, les méthodes stochastiques sont des méthodes de choix pour la minimisation de risque empirique. Nous proposons ici une borne inférieure sur le nombre d’appels aux oracles nécessaire pour résoudre ce problème avec une précision $\epsilon$. Aussi, nous donnons un algorithme dont la complexité atteint cette borne inférieure. En ce sens, cet algorithme est quasi-optimal.</p>
+    
+
+    
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            <a href="/publication/#3">
+              Preprint
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">XXIXème Colloque Francophone de Traitement du Signal et des Images GRETSI</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"><!-- <div class="alert alert-note">
+  <div>
+    Click the <em>Cite</em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  </div>
+</div>
+ -->
+<!-- <div class="alert alert-note">
+  <div>
+    Create your slides in Markdown - click the <em>Slides</em> button to check out the example.
+  </div>
+</div>
+ -->
+<!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). -->
+</div>
+
+    
+
+
+
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://matdag.github.io/publication/srba_gretsi/&amp;text=Borne%20inf%c3%a9rieure%20de%20compl%c3%a9xit%c3%a9%20et%20algorithme%20quasi-optimal%20pour%20la%20minimisation%20de%20risque%20empirique%20bi-niveaux" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://matdag.github.io/publication/srba_gretsi/&amp;t=Borne%20inf%c3%a9rieure%20de%20compl%c3%a9xit%c3%a9%20et%20algorithme%20quasi-optimal%20pour%20la%20minimisation%20de%20risque%20empirique%20bi-niveaux" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Borne%20inf%c3%a9rieure%20de%20compl%c3%a9xit%c3%a9%20et%20algorithme%20quasi-optimal%20pour%20la%20minimisation%20de%20risque%20empirique%20bi-niveaux&amp;body=https://matdag.github.io/publication/srba_gretsi/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://matdag.github.io/publication/srba_gretsi/&amp;title=Borne%20inf%c3%a9rieure%20de%20compl%c3%a9xit%c3%a9%20et%20algorithme%20quasi-optimal%20pour%20la%20minimisation%20de%20risque%20empirique%20bi-niveaux" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Borne%20inf%c3%a9rieure%20de%20compl%c3%a9xit%c3%a9%20et%20algorithme%20quasi-optimal%20pour%20la%20minimisation%20de%20risque%20empirique%20bi-niveaux%20https://matdag.github.io/publication/srba_gretsi/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://matdag.github.io/publication/srba_gretsi/&amp;title=Borne%20inf%c3%a9rieure%20de%20compl%c3%a9xit%c3%a9%20et%20algorithme%20quasi-optimal%20pour%20la%20minimisation%20de%20risque%20empirique%20bi-niveaux" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
 
   
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
 </div>
   </div>
 
