@@ -122,6 +122,8 @@ sections:
         exclude_past: false
         publication_type: ""
       text: |- 
+        * **2026-02-10:** Talk at Institut de Mathématiques de Bordeaux (Montpellier): *Bilevel optimization for machine learning*
+        * **2026-01-15:** Talk at MAGNET team seminar (Lille): *Bilevel optimization for machine learning*
         * **2025-02-10:** Talk at [Machine Learning in Montpellier, Theory \& Practice](https://groupes.renater.fr/wiki/ml-mtp/index) (Montpellier): *Bilevel optimization for machine learning*
         * **2024-06-25:** Talk at [STIC doctoral day](https://stic-saclay24.sciencesconf.org/resource/page/id/1) (Gif-sur-Yvette): *A framework for bilevel optimization that enables stochastic and global variance reduction algorithms*
         * **2024-05-02** Poster Session at [AISTATS](https://aistats.org/aistats2024/) (Valencia): *A lower bound a near-optimal algorithm for bilevel empirical risk minimization*
