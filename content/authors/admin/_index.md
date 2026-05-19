@@ -74,7 +74,7 @@ email: ''
 highlight_name: true
 ---
 
-I am a postdoctoral researcher at {{< staticref "https://www.inria.fr/" "newtab" >}}Inria{{< /staticref >}} in the {{< staticref "https://team.inria.fr/premedical/" "newtab" >}}PreMeDICaL team{{< /staticref >}} working with {{< staticref "http://researchers.lille.inria.fr/abellet/" "newtab" >}}Aurélien Bellet{{< /staticref >}} on privacy-preserving machine learning. 
+I am a postdoctoral researcher at {{< staticref "https://www.inria.fr/" "newtab" >}}Inria{{< /staticref >}} in the {{< staticref "https://team.inria.fr/premedical/" "newtab" >}}PreMeDICaL team{{< /staticref >}} working with {{< staticref "http://researchers.lille.inria.fr/abellet/" "newtab" >}}Aurélien Bellet{{< /staticref >}} on trustworthy machine learning. 
 
 Prior to that, I did my Ph.D. at {{< staticref "https://www.inria.fr/" "newtab" >}}Inria{{< /staticref >}} in the {{< staticref "https://team.inria.fr/mind/" "newtab" >}}Mind team{{< /staticref >}} under the supervision of {{< staticref "https://pierreablin.com/" "newtab" >}}Pierre Ablin{{< /staticref >}}, {{< staticref "https://tommoral.github.io/" "newtab" >}}Thomas Moreau{{< /staticref >}}, and {{< staticref "https://samuelvaiter.com/" "newtab" >}}Samuel Vaiter{{< /staticref >}}. I worked on bilevel optimization for machine learning.
 
