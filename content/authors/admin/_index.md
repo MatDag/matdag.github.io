@@ -21,6 +21,7 @@ interests:
   - Optimization
   - Machine Learning
   - Privacy-preserving machine learning
+  - Fairness
 
 # Education to show in About widget
 education:
