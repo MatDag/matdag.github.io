@@ -1,5 +1,5 @@
 ---
-title: 'Optimal Transport under Group Fairness Constraints '
+title: 'Optimal Transport under Group Fairness Constraints'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
