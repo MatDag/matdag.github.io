@@ -48,7 +48,7 @@ featured: true
 #   url: http://example.org
 
 url_pdf: 'https://arxiv.org/pdf/2601.07144.pdf'
-url_code: ''
+url_code: 'https://github.com/LinusBleistein/fair_ot/'
 url_dataset: ''
 url_poster: ''
 url_project: ''
