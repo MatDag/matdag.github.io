@@ -59,6 +59,8 @@ url_video: ''
 links:
   - name: arXiv
     url: https://arxiv.org/abs/2601.07144
+  - name: PMLR
+    url: https://proceedings.mlr.press/v306/bleistein26a.html
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
