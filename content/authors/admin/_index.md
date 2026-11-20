@@ -6,12 +6,12 @@ title: Mathieu Dagréou
 superuser: true
 
 # Role/position/tagline
-role: Ph.D. student in Machine Learning
+role: Postdoc researcher in Machine Learning
 
 # Organizations/Affiliations to show in About widget
 organizations:
   - name: Inria  - PreMeDICaL team
-    url: https://team.inria.fr/mind/
+    url: https://team.inria.fr/premedical/
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
